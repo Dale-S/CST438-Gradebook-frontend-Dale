@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.Center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  box-sizing: border-box;
+  color: #220f5f;
+  font-family:  sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 10px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr th {
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid #eeeeee;
+  text-align: left;
+  background-color: rgba(217, 221, 146, 0.2);
+}
+
+tr td {
+  border: 1px solid #eeeeee;
+  text-align: left;
+  padding:  10px;
+}
+
+input {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  width: 91%;
+  padding: 12px 12px;
+  font-family:  sans-serif;
+}
+
+input:focus {
+  outline: 1px solid #ccc;
+  border: 1px solid #ccc;
+}
