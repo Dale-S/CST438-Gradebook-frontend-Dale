@@ -10,7 +10,7 @@ function ListAssignment(props) {
 
   const [assignments, setAssignments] = useState([]);
   const [message, setMessage] = useState('');
-  const [force, setForce] = useState(false);
+  const [force, setForce] = useState(true);
 
   useEffect(() => {
    // called once after intial render
@@ -123,7 +123,7 @@ function ListAssignment(props) {
               </label>
               <br></br>
               <br></br>
-              <Link class="Center" to={`/assignment/create`} >Create</Link>
+              <Link id="create" class="Center" to={`/assignment/create`} >Create</Link>
           </div>
       </div>
     )
