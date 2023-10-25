@@ -17,7 +17,6 @@ function App() {
               <Route path="/assignment/create" component={AddAssignment} />
               <Route path="/assignment/edit" component={EditAssignment} />
               <Route render={ () => <h1>Page not found</h1>} />
-              
             </Switch>
           </div>
         </BrowserRouter>
