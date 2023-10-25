@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import Game from './Game';
+import { BrowserRouter, Switch, Route } from 'react-router-dom/cjs/react-router-dom.min';
+import ListAssignment from './ListAssignment';
+import GradeAssignment from './GradeAssignment';
+import EditAssignment from './EditAssignment';
+import AddAssignment from './AddAssignment';
 
 function Login() {
   const [user, setUser] = useState({ username: '', password: '' });
